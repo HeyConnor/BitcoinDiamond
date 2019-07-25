@@ -165,9 +165,9 @@ unsigned int LwmaCalculateNextWorkRequired(const CBlockIndex* pindexLast, const 
         sumTarget += target / (k * N);
     }
     // Keep t reasonable in case strange solvetimes occurred.
-    if (t < k / dnorm) {
-        t = k / dnorm;
-    }
+    // if (t < k / dnorm) {
+    //     t = k / dnorm;
+    // }
 
     nextTarget = t * sumTarget;
     if (nextTarget > powLimit) {
