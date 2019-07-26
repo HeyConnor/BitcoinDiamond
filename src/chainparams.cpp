@@ -84,8 +84,7 @@ public:
 
 		//introduce Zawy's LWMA
 		consensus.ZawyLWMAHeight = 585000;
-		consensus.nZawyLwmaAveragingWindow = 45;
-		consensus.nZawyLwmaMinDenominator = 10;
+		consensus.nZawyLwmaAveragingWindow = 60;
 
         consensus.BCDGenesisBlockReward = 1400 * 10000 * COIN;
         consensus.BCDLastRewardHeight = 826002;
@@ -214,8 +213,7 @@ public:
 
         //introduce Zawy's LWMA
         consensus.ZawyLWMAHeight = 1096660;
-        consensus.nZawyLwmaAveragingWindow = 45;
-        consensus.nZawyLwmaMinDenominator = 10;
+        consensus.nZawyLwmaAveragingWindow = 60;
 
         consensus.powLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
@@ -317,8 +315,7 @@ public:
 
         //introduce Zawy's LWMA
         consensus.ZawyLWMAHeight = 1;
-        consensus.nZawyLwmaAveragingWindow = 45;
-        consensus.nZawyLwmaMinDenominator = 10;
+        consensus.nZawyLwmaAveragingWindow = 60;
 
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks

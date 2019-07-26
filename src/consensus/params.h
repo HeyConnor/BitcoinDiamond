@@ -85,7 +85,6 @@ struct Params {
     int ZawyLWMAHeight;
     // Params for Zawy's LWMA difficulty adjustment algorithm.
     int64_t nZawyLwmaAveragingWindow;
-    int64_t nZawyLwmaMinDenominator;
 };
 } // namespace Consensus
 
